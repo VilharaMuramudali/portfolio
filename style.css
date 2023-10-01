@@ -1,0 +1,51 @@
+@import 'utilities.css';
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'poppins',sans-serif;
+}
+header{
+    background-color: bisque;
+    height: 800px;
+}
+
+.container{
+    max-width: 1152px;
+    padding :0 15px;
+    margin: 0 auto;
+
+}
+header nav .left a{
+    color: darkcyan;
+    text-decoration: none;
+    margin-right:2rem ;
+    text-transform: uppercase;
+    transition:all.3s ease ;
+}
+header nav .left a:hover{
+    color: #0a0352;
+}
+
+header nav {
+    padding:2rem 0 ;
+}
+
+header nav .branding{
+    margin-right: 3rem;
+
+}
+.pic img{
+    width: 600px;
+    position: relative;
+    margin-left: 70%;
+    margin-top: -50px;
+}
+
+.content{
+    align-content: center;
+    margin-top: 50%;
+}
