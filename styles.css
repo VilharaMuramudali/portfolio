@@ -657,7 +657,9 @@ span{
         right: -39.5rem
     }
     .home-img img{
-        display: none;
+        width: 60vw;
+       margin-right:7%;
+        align-items: center;
     }
 
     .services,
@@ -856,6 +858,10 @@ span{
     }
     .footer p{
         text-align: center;
+        
         margin-top: 2rem;
+    }
+    .footer .footer-iconTop a{
+        align-items: center;
     }
 }
