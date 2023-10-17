@@ -75,4 +75,4 @@ ScrollReveal().reveal('.home-content h3, .home-content p,  .about-content', { or
         });
     });
 
-
+    
